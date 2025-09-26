@@ -23,6 +23,8 @@ body {
     position: relative; /* Required for the ::before pseudo-element */
     overflow: hidden; /* Prevents scrollbars from the background effect */
     background-color: #000; /* Fallback color */
+    overflow-y: auto;
+    scrollbar-width: thin;
 }
 
 /* --- Deep Ocean Glow Background --- */
@@ -139,7 +141,7 @@ button[type="submit"]:hover {
     list-style-type: none;
     margin-top: 1rem;
     max-height: 300px;
-    overflow-y: auto;
+    
 }
 
 #expense-list li {
