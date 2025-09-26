@@ -141,7 +141,7 @@ button[type="submit"]:hover {
     list-style-type: none;
     margin-top: 1rem;
     max-height: 300px;
-    
+    overflow-y: auto;
 }
 
 #expense-list li {
